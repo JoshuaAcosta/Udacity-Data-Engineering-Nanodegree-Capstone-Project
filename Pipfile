@@ -6,12 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-requests = "*"
-pandas = "*"
-flake8 = "*"
-apache-airflow = "==1.10.3"
-flask = "==1.0.3"
-pylint = "*"
+requests = "==2.24.0"
+pandas = "==1.0.5"
+flake8 = "==3.8.3"
+apache-airflow = "==1.10.11"
+flask = "==1.1.2"
+pylint = "==2.5.3"
 
 [requires]
 python_version = "3.6"
