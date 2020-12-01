@@ -6,7 +6,7 @@ In a hypothetical situation, the Mayor of New York City has requested the city's
 This project creates a data pipeline using Apache Airflow to extract, transform and load the requested datasets into a data warehouse in Amazon Redshift for the analytics team to perform their analysis.
 
 ## Data Description & Sources
-* NYC 311 Compliants: The City of New York publishes complaints made to 311 via their [Open Data portal](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9). 311 complaints are updated daily. A csv file containing all complaints from 2014 to 2018 was downloaded from here. The dataset contains columns such as complaint type, city agency respoding to complaint, location (including address, neighborhood and community district information) and 
+* NYC 311 Compliants: The City of New York publishes complaints made to 311 via their [Open Data portal](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9). 311 complaints are updated daily. A csv file containing all complaints from 2014 to 2018 was downloaded from here. The dataset contains columns such as complaint type, city agency respoding to complaint, location (including address, neighborhood and community district information) and longtitude/latitude coordinates. 
 
 * NOAA Weather API: The weather data is gathering from the [National Oceanic and Atmospheric Administration's API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2). API calls returns json data with the max/min temperature, snowfall, snow depth and precipitation measures for each day. In this project, we ping and receive data from the station located in Central Park, Manhattan.
 

@@ -138,4 +138,3 @@ airflow/*.cfg
 airflow/*.db
 aiflow/logs/
 aiflow/logs/scheduler
-notebooks/
